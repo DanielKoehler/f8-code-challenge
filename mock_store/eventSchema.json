@@ -1,0 +1,38 @@
+{
+	"properties": {
+		"id": {"type": "string"},
+		"name": {"type": "string"},
+		"time": {"type": "string", "format": "date-time"},
+		"markets": {
+			"type": "array",
+			"items": {
+
+				"type": "object",
+				"properties": {
+					"id": {"type": "string"},
+					"type": {"type": "string"},
+					"options": {
+						"type": "array",
+						"items": {
+
+							"type": "object",
+							"required": ["id","name", "num","den"],
+							"properties": {
+								"id": {"type": "string"},
+								"name": {"type": "string"},
+								"num": {"type": "number"},
+								"den": {"type": "number"}
+							}
+
+						}
+					}
+				},
+
+				"required": ["id", "type", "options"]
+				
+			}
+		}
+	},
+	"additionalProperties": false,
+	"required": ["id","name","markets"]
+}
