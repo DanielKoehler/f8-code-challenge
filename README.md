@@ -93,7 +93,7 @@ The following example is formatted correctly to be accepted by the store.
 {
   "id": "1",
   "name": "Southampton v Bournemouth",
-  "time": "2006-01-02T15:04:05Z07:00",
+  "time": "2006-01-02T15:04:05Z",
   "markets": [
     {
       "id": "101",
