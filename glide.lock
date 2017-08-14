@@ -1,8 +1,13 @@
-hash: b03cbc42daff0ff65fd0226bf5bcee216bd02c2682cf4fd8d54b142f9d0ac9ed
-updated: 2017-07-03T12:07:16.712592068+01:00
+hash: f958c76c4d1449b6bf702e07e1da2fc582ff5b393704cb779bc75ee8499e7057
+updated: 2017-08-14T14:47:36.655656192+01:00
 imports:
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
   version: bcd8bc72b08df0f70df986b97f95590779502d31
-- name: github.com/urfave/negroni
-  version: fde5e16d32adc7ad637e9cd9ad21d4ebc6192535
+- name: github.com/santhosh-tekuri/jsonschema
+  version: 3968f5a2fa9b81399766f843162c5c06ee1e6aba
+  subpackages:
+  - formats
+  - loader
 testImports: []
